@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="velocity-1.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/" recursive="false" />
+  </library>
+</component>

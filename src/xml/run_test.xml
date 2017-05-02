@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test" parallel="false">
+    <test name="getExample">
+        <classes>
+            <!-- login test-->
+            <class name="login.LoginTest" />
+            <!-- example test-->
+            <class name="example.GetExample" />
+            <class name="example.DeleteExapmle" />
+            <class name="example.PostExample" />
+            <class name="example.PutExample" />
+            <!-- store test-->
+            <class name="store.BicycleInfoTest" />
+            <class name="store.BookInfoTest" />
+            <!-- failed example-->
+            <class name="failed.ErrorExampleTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<head>
+    <title>test</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="description" content="TestNG unit test results." />
+
+</head>
+<body>
+
+<h1>Test Result</h1>
+<table border="1">
+    <tr>
+        <th>OverView</th>
+        <th colspan="7" class="header suite">
+            <div >
+                <a>run cases sum</a>
+            </div>
+        </th>
+    </tr>
+    <tr class="columnHeadings">
+        <td> </td>
+        <th>all</th>
+        <th>excluded</th>
+        <th>passed</th>
+        <th>faild</th>
+        <th>skipped</th>
+        <th>duration(S)</th>
+        <th>passration</th>
+        <th>alltestMethod</th>
+        <th>excluedMethod</th>
+    </tr>
+
+    <tr>
+        <td>TestResult</td>
+        <td>4</td>
+        <td>0</td>
+        <td>3</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1.985</td>
+        <td>75.00%</td>
+        <td>
+                            BicycleInfoTest.getBicycleInfoTest()[pri:0, instance:store.BicycleInfoTest@668bc3d5]<br/>
+                            BookInfoTest.getBookInfoTest()[pri:0, instance:store.BookInfoTest@3cda1055]<br/>
+                            ErrorExampleTest.errorExampleTest()[pri:0, instance:failed.ErrorExampleTest@21bcffb5]<br/>
+                            LoginTest.loginTest()[pri:0, instance:login.LoginTest@380fb434]<br/>
+                    </td>
+        <td>
+                    </td>
+    </tr>
+</table>
+<br/><br/>
+<table border="1">
+    <tr>
+        <th>PassTests</th>
+        <th colspan="9" class="header suite">
+            <div >
+                <a>pass test case info</a>
+            </div>
+        </th>
+    </tr>
+    <tr class="columnHeadings">
+        <td> </td>
+        <th>testName</th>
+        <th>className</th>
+        <th>duration</th>
+        <th>params</th>
+        <th>description</th>
+        <th>output</th>
+        <th>dependMethod</th>
+        <th>remark1</th>
+        <th>remark2</th>
+    </tr>
+
+        <tr>
+        <td>1</td>
+        <td>getBicycleInfoTest
+            </td>
+        <td>store.BicycleInfoTest</td>
+        <td>1.413</td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <tr>
+        <td>2</td>
+        <td>getBookInfoTest
+            </td>
+        <td>store.BookInfoTest</td>
+        <td>0.035</td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <tr>
+        <td>3</td>
+        <td>loginTest
+            </td>
+        <td>login.LoginTest</td>
+        <td>0.062</td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+    </tr>
+
+</table>
+<br/>
+
+
+<br/><br/>
+
+<table border="1">
+    <tr>
+        <th>FailedTests</th>
+        <th colspan="9" class="header suite">
+            <div >
+                <a>Failed tests info</a>
+            </div>
+        </th>
+    </tr>
+    <tr class="columnHeadings">
+        <td> </td>
+        <th>testName</th>
+        <th>className</th>
+        <th>duration</th>
+        <th>params</th>
+        <th>description</th>
+        <th>output</th>
+        <th>dependMethod</th>
+        <th>throwable</th>
+        <th>stackTrace</th>
+    </tr>
+
+        <tr>
+        <td>1</td>
+        <td>errorExampleTest</td>
+        <td>failed.ErrorExampleTest</td>
+        <td>0.036</td>
+        <td></td>
+        <td></td>
+        <td>
+                    </td>
+        <td></td>
+        <td>java.lang.AssertionError: 返回码错误！</td>
+        <td>
+                                                org.testng.Assert.fail(Assert.java:94)<br/>
+                                    tools.AssertTool.assertEqualsInt(AssertTool.java:24)<br/>
+                                    failed.ErrorExampleTest.errorExampleTest(ErrorExampleTest.java:27)<br/>
+                                    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+                                    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>
+                                    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+                                    java.lang.reflect.Method.invoke(Method.java:498)<br/>
+                                    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br/>
+                                    org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br/>
+                                    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br/>
+                                    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br/>
+                                    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br/>
+                                    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br/>
+                                    org.testng.TestRunner.privateRun(TestRunner.java:774)<br/>
+                                    org.testng.TestRunner.run(TestRunner.java:624)<br/>
+                                    org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br/>
+                                    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br/>
+                                    org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br/>
+                                    org.testng.SuiteRunner.run(SuiteRunner.java:261)<br/>
+                                    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+                                    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br/>
+                                    org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br/>
+                                    org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br/>
+                                    org.testng.TestNG.run(TestNG.java:1048)<br/>
+                                    org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)<br/>
+                                    org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)<br/>
+                                    org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)<br/>
+                                    org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)<br/>
+                                    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+                                    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>
+                                    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+                                    java.lang.reflect.Method.invoke(Method.java:498)<br/>
+                                    org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br/>
+                                    org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br/>
+                                    org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br/>
+                                    org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br/>
+                                    org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br/>
+                                    </td>
+    </tr>
+
+
+</table>
+

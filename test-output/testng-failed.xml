@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]">
+  <test name="getExample(failed)">
+    <classes>
+      <class name="store.BookInfoTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- store.BookInfoTest -->
+      <class name="failed.ErrorExampleTest">
+        <methods>
+          <include name="errorExampleTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- failed.ErrorExampleTest -->
+      <class name="example.PostExample">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- example.PostExample -->
+      <class name="example.DeleteExapmle">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- example.DeleteExapmle -->
+      <class name="store.BicycleInfoTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- store.BicycleInfoTest -->
+      <class name="example.GetExample">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- example.GetExample -->
+      <class name="login.LoginTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- login.LoginTest -->
+      <class name="example.PutExample">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- example.PutExample -->
+    </classes>
+  </test> <!-- getExample(failed) -->
+</suite> <!-- Failed suite [test] -->

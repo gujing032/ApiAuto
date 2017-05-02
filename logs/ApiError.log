@@ -1,0 +1,16 @@
+2017-05-02 10:54:15 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+返回码错误！:int相等校验失败
+预期结果串为：200
+实际结果为：404
+2017-05-02 11:00:15 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+返回码错误！:int相等校验失败
+预期结果串为：200
+实际结果为：404
+2017-05-02 11:02:08 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+返回码错误！:int相等校验失败
+预期结果串为：200
+实际结果为：404
+2017-05-02 14:15:31 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+���������:int���У��ʧ��
+Ԥ�ڽ����Ϊ��200
+ʵ�ʽ��Ϊ��404
