@@ -3,7 +3,7 @@ import org.testng.*;
 
 import java.util.*;
 /**
- * Created by weye on 2017/5/1.
+ * Created by Chuckie on 2017/5/1.
  */
 public class ReporterData {
     // 测试结果Set<ITestResult>转为list，再按执行时间排序 ，返回list

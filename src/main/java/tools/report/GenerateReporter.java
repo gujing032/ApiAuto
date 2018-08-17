@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.List;
 import java.util.Map;
 /**
- * Created by weye on 2017/5/1.
+ * Created by Chuckie on 2017/5/1.
  */
 public class GenerateReporter implements IReporter{
     @Override

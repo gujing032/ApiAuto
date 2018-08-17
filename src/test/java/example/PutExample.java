@@ -7,10 +7,12 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import tools.AssertTool;
 
+import java.io.UnsupportedEncodingException;
+
 import static com.jayway.restassured.RestAssured.given;
 
 /**
- * Created by weye on 2017/4/26.
+ * Created by Chuckie on 2017/4/26.
  */
 @Listeners({tools.report.GenerateReporter.class})
 public class PutExample {
@@ -19,10 +21,10 @@ public class PutExample {
         RestAssured.baseURI = "http://localhost:4567";
         RestAssured.basePath = "/update/userInfo";
     }
-    @Test
-    public void putExampleTest(){
-        Response response = given().header("", "").when().
-                log().all().put("/weye/heihgt/1800mm");
+    @Test(groups = { "p1", "put_type" })
+    public void putExampleTest() throws UnsupportedEncodingException {
+        Response response = given().when().
+                log().all().put("/Chuckie/heihgt/1800mm");
         int resultCode = response.statusCode();
         String result = response.getBody().print();
         AssertTool.assertEqualsInt(resultCode, 200, "返回码错误！");

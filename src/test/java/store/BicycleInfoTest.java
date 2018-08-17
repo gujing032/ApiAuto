@@ -22,7 +22,9 @@ public class BicycleInfoTest {
     }
     @Test
     public void getBicycleInfoTest(){
-        Response response = given().header("","").when().log().all().get("");
+        RestAssured.baseURI = "http://localhost:4567";
+        RestAssured.basePath = "/store";
+        Response response = given().when().log().all().get("");
         int resultCode = response.statusCode();
         JsonPath jsonPath = response.jsonPath();
         String store_book_author = jsonPath.get("store.book[0].author");

@@ -6,17 +6,18 @@ import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.given;
 
 /**
- * Created by weye on 2017/4/30.
+ * Created by Chuckie on 2017/4/30.
  */
 public class ApiTool {
     static LoggerControler log = LoggerControler.getLogger(ApiTool.class);
+
 
     /**
      *
      * @return 返回认证令牌token
      */
     public static String getAppToken() {
-        String loginPath = "/login";
+        String loginPath = "http://localhost:4567/app/login";
 
         //    登陆用户名，密码，租户ID
 
@@ -37,6 +38,28 @@ public class ApiTool {
         String token = loginJson.getString("token");
         return token;
     }
+    public static String getWebCookie(){
+        String loginPath = "http://localhost:4567/web/login";
+
+        //    登陆用户名，密码，租户ID
+
+
+        String bodystring = "{\n" +
+                "    \"username\": [\n" +
+                "        \"admin\"\n" +
+                "    ],\n" +
+                "    \"password\": [\n" +
+                "        \"admin\"\n" +
+                "    ]\n" +
+                "}";
+        Response response = given().
+                contentType("application/json;charset=UTF-8").
+                body(bodystring).
+                when().post(loginPath);
+        JsonPath loginJson = response.jsonPath();
+        String cookie = loginJson.getString("cookie");
+        return cookie;
+    }
     /**
      * 封装post 请求：每次请求前先获取新token
      *
@@ -44,7 +67,7 @@ public class ApiTool {
      * @param apiPath api地址
      * @return 返回response
      */
-    public static Response post(String json, String apiPath) {
+    public static Response appPost(String json, String apiPath, String basePath) {
         String ticket = ApiTool.getAppToken();
 //        开始发起post 请求
         Response response = given().
@@ -65,7 +88,7 @@ public class ApiTool {
      * @param apiPath api地址
      * @return 返回response
      */
-    public static Response get( String apiPath) {
+    public static Response appGet( String apiPath) {
         String toekn = ApiTool.getAppToken();
 //        开始发起GET 请求
         Response response = given().

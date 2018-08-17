@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Created by weye on 15/11/6.
+ * Created by Chuckie on 15/11/6.
  */
 public final class LoggerControler {
     // 设置配置文件路径
@@ -56,6 +56,7 @@ public final class LoggerControler {
         logger.error(msg);
     }
 
+
     public void error(StringBuilder message) {
         logger.error(message.toString());
     }
@@ -63,6 +64,7 @@ public final class LoggerControler {
     public void info(StringBuilder message) {
         logger.info(message.toString());
     }
+
 
     public void warn(StringBuilder message) {
         logger.warn(message.toString());

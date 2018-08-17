@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 /**
- * Created by weye on 15/11/13.
+ * Created by Chuckie on 15/11/13.
  */
 
 public class AssertTool extends Assert {
     static LoggerControler logger = LoggerControler.getLogger(AssertTool.class);
 //======================================assertEqualsInt=================================
-    public static void assertEqualsInt(int actualInt,int expectInt,String message){
+    public static void assertEqualsInt(int actualInt,int expectInt,String message) {
         StringBuilder msg = new StringBuilder("assertEqualsInt(int actualInt,int expectInt,String message):\n");
         if (actualInt == expectInt) {
             msg.append(":int相等校验正确\n预期结果为：" + String.valueOf(expectInt) + "\n实际结果为：" + String.valueOf(actualInt));
@@ -21,7 +21,8 @@ public class AssertTool extends Assert {
         } else {
             msg.append(message + ":int相等校验失败\n预期结果串为：" + String.valueOf(expectInt) + "\n实际结果为：" + String.valueOf(actualInt));
             logger.error(msg);
-            Assert.fail(message);
+//            Assert.fail(message);
+            Assert.fail("error occurred");
         }
     }
 
@@ -35,7 +36,7 @@ public class AssertTool extends Assert {
         } else {
             msg.append(message + ":string相等校验失败\n预期结果串为：" + String.valueOf(expectStr) + "\n实际结果为：" + String.valueOf(actualStr));
             logger.error(msg);
-            Assert.fail(message);
+//            Assert.fail(message);
         }
     }
 

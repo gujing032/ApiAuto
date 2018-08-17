@@ -1,144 +1,336 @@
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:56 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
 实际结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 16:28:57 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：get request is ok!
+实际结果为：{"result":{"orders":[]},"code":200}
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
-预期结果为：get request is ok!
-实际结果为：get request is ok!
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+预期结果为：删除用户：Chuckie信息成功！
+实际结果为：删除用户：Chuckie信息成功！
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：删除用户：weye信息成功！
-实际结果为：删除用户：weye信息成功！
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 16:28:57 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：验证通过，欢迎您：Chuckie!
+实际结果为：登录成功！
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：验证通过，欢迎您：weye!
-实际结果为：验证通过，欢迎您：weye!
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
-:int相等校验正确
-预期结果为：200
-实际结果为：200
-2017-05-02 10:54:14 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 16:28:57 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：更新成功！
 实际结果为：更新成功！
-2017-05-02 10:54:15 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 16:28:58 ERROR main [tools.AssertTool]error(line:61)assertEqualsInt(int actualInt,int expectInt,String message):
 返回码错误！:int相等校验失败
 预期结果串为：200
 实际结果为：404
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:18:42 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
 实际结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:18:43 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：get request is ok!
+实际结果为：{"result":{"orders":[]},"code":200}
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
-预期结果为：get request is ok!
-实际结果为：get request is ok!
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+预期结果为：删除用户：Chuckie信息成功！
+实际结果为：删除用户：Chuckie信息成功！
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：删除用户：weye信息成功！
-实际结果为：删除用户：weye信息成功！
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:18:43 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：验证通过，欢迎您：Chuckie!
+实际结果为：登录成功！
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：验证通过，欢迎您：weye!
-实际结果为：验证通过，欢迎您：weye!
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
-:int相等校验正确
-预期结果为：200
-实际结果为：200
-2017-05-02 11:00:15 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:18:43 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：更新成功！
 实际结果为：更新成功！
-2017-05-02 11:00:15 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:18:43 ERROR main [tools.AssertTool]error(line:61)assertEqualsInt(int actualInt,int expectInt,String message):
 返回码错误！:int相等校验失败
 预期结果串为：200
 实际结果为：404
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:08 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
 实际结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:25:09 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：get request is ok!
+实际结果为：{"result":{"orders":[]},"code":200}
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
-预期结果为：get request is ok!
-实际结果为：get request is ok!
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+预期结果为：删除用户：Chuckie信息成功！
+实际结果为：删除用户：Chuckie信息成功！
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：删除用户：weye信息成功！
-实际结果为：删除用户：weye信息成功！
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:25:09 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：验证通过，欢迎您：Chuckie!
+实际结果为：登录成功！
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
-:string相等校验正确
-预期结果为：验证通过，欢迎您：weye!
-实际结果为：验证通过，欢迎您：weye!
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
-:int相等校验正确
-预期结果为：200
-实际结果为：200
-2017-05-02 11:02:08 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 17:25:09 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：更新成功！
 实际结果为：更新成功！
-2017-05-02 11:02:08 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 17:25:09 ERROR main [tools.AssertTool]error(line:61)assertEqualsInt(int actualInt,int expectInt,String message):
 返回码错误！:int相等校验失败
 预期结果串为：200
 实际结果为：404
-2017-05-02 14:15:31 ERROR main [tools.AssertTool]error(line:60)assertEqualsInt(int actualInt,int expectInt,String message):
-返回码错误！:int相等校验失败
-预期结果串为：200
-实际结果为：404
-2017-05-02 14:15:32 INFO main [tools.AssertTool]info(line:64)assertEqualsInt(int actualInt,int expectInt,String message):
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：401
+实际结果为：401
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
 :int相等校验正确
 预期结果为：200
 实际结果为：200
-2017-05-02 14:15:32 INFO main [tools.AssertTool]info(line:64)assertEqualsStr(String actualStr,String expectStr,String message):
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
 :string相等校验正确
 预期结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
 实际结果为：rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM
+2018-08-15 18:08:37 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 18:08:37 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：get request is ok!
+实际结果为：{"result":{"orders":[]},"code":200}
+2018-08-15 18:08:38 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 18:08:38 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
+:string相等校验正确
+预期结果为：删除用户：Chuckie信息成功！
+实际结果为：删除用户：Chuckie信息成功！
+2018-08-15 18:08:38 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 18:08:38 ERROR main [tools.AssertTool]error(line:61)assertEqualsStr(String actualStr,String expectStr,String message):
+返回内容错误！:string相等校验失败
+预期结果串为：验证通过，欢迎您：Chuckie!
+实际结果为：登录成功！
+2018-08-15 18:08:38 INFO main [tools.AssertTool]info(line:65)assertEqualsInt(int actualInt,int expectInt,String message):
+:int相等校验正确
+预期结果为：200
+实际结果为：200
+2018-08-15 18:08:38 INFO main [tools.AssertTool]info(line:65)assertEqualsStr(String actualStr,String expectStr,String message):
+:string相等校验正确
+预期结果为：更新成功！
+实际结果为：更新成功！
+2018-08-15 18:08:38 ERROR main [tools.AssertTool]error(line:61)assertEqualsInt(int actualInt,int expectInt,String message):
+返回码错误！:int相等校验失败
+预期结果串为：200
+实际结果为：404

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>getExample</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 02 11:02:06 CST 2017</td>
+<td>Started on:</td><td>Wed Aug 15 18:08:34 CST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2899 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3768 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,18 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='failed.ErrorExampleTest.errorExampleTest()'><b>errorExampleTest</b><br>Test class: failed.ErrorExampleTest</td>
-<td><div><pre>java.lang.AssertionError: 返回码错误！
-	at tools.AssertTool.assertEqualsInt(AssertTool.java:24)
-	at failed.ErrorExampleTest.errorExampleTest(ErrorExampleTest.java:27)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace976358110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace976358110'><pre>java.lang.AssertionError: 返回码错误！
+<td><div><pre>java.lang.AssertionError: error occurred
+	at tools.AssertTool.assertEqualsInt(AssertTool.java:25)
+	at failed.ErrorExampleTest.errorExampleTest(ErrorExampleTest.java:29)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1142277168", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1142277168'><pre>java.lang.AssertionError: error occurred
 	at org.testng.Assert.fail(Assert.java:94)
-	at tools.AssertTool.assertEqualsInt(AssertTool.java:24)
-	at failed.ErrorExampleTest.errorExampleTest(ErrorExampleTest.java:27)
+	at tools.AssertTool.assertEqualsInt(AssertTool.java:25)
+	at failed.ErrorExampleTest.errorExampleTest(ErrorExampleTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -106,18 +105,11 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
 	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </pre></div></td>
 <td>0</td>
-<td>failed.ErrorExampleTest@2c8d66b2</td></tr>
+<td>failed.ErrorExampleTest@6b776b55</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -130,37 +122,113 @@ function toggleAllBoxes() {
 <td title='example.DeleteExapmle.deleteExampleTest()'><b>deleteExampleTest</b><br>Test class: example.DeleteExapmle</td>
 <td></td>
 <td>0</td>
-<td>example.DeleteExapmle@3f0ee7cb</td></tr>
+<td>example.DeleteExapmle@31818dbc</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin1
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t7ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>1</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin2
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t8ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin3
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t9ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin4
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t10ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin5
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t11ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin6
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t12ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorPwdLoginTest()'><b>errorPwdLoginTest</b><br>Test class: login.LoginTest<br>Test method: 描述内容<br>Parameters: /login/test, {
+     username:admin,
+     password:admin7
+}, access_token, rSWamyAYwuHCo7IFAgd1oRpSP7nzL7BF5t13ItqpKViM, JSESSIONID, null</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorUserNameLoginTest()'><b>errorUserNameLoginTest</b><br>Test class: login.LoginTest<br>Parameters: user1, admin</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorUserNameLoginTest()'><b>errorUserNameLoginTest</b><br>Test class: login.LoginTest<br>Parameters: user2, admin</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
+<tr>
+<td title='login.LoginTest.errorUserNameLoginTest()'><b>errorUserNameLoginTest</b><br>Test class: login.LoginTest<br>Parameters: use3, admin</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
 <tr>
 <td title='store.BicycleInfoTest.getBicycleInfoTest()'><b>getBicycleInfoTest</b><br>Test class: store.BicycleInfoTest</td>
 <td></td>
 <td>0</td>
-<td>store.BicycleInfoTest@7dc36524</td></tr>
+<td>store.BicycleInfoTest@78d7a8bb</td></tr>
 <tr>
 <td title='store.BookInfoTest.getBookInfoTest()'><b>getBookInfoTest</b><br>Test class: store.BookInfoTest</td>
 <td></td>
 <td>0</td>
-<td>store.BookInfoTest@35bbe5e8</td></tr>
+<td>store.BookInfoTest@1686caf8</td></tr>
 <tr>
 <td title='example.GetExample.getExampleTest()'><b>getExampleTest</b><br>Test class: example.GetExample</td>
 <td></td>
 <td>0</td>
-<td>example.GetExample@c818063</td></tr>
+<td>example.GetExample@16a51ac9</td></tr>
 <tr>
-<td title='login.LoginTest.loginTest()'><b>loginTest</b><br>Test class: login.LoginTest</td>
+<td title='store.BookInfoTest.getWinnerIdTest()'><b>getWinnerIdTest</b><br>Test class: store.BookInfoTest</td>
 <td></td>
-<td>1</td>
-<td>login.LoginTest@2ff4f00f</td></tr>
+<td>0</td>
+<td>store.BookInfoTest@1686caf8</td></tr>
+<tr>
+<td title='login.LoginTest.passedloginTest()'><b>passedloginTest</b><br>Test class: login.LoginTest<br>Parameters: admin, admin</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@49940c14</td></tr>
 <tr>
 <td title='example.PostExample.postExampleTest()'><b>postExampleTest</b><br>Test class: example.PostExample</td>
 <td></td>
 <td>0</td>
-<td>example.PostExample@75bd9247</td></tr>
+<td>example.PostExample@30804b08</td></tr>
 <tr>
 <td title='example.PutExample.putExampleTest()'><b>putExampleTest</b><br>Test class: example.PutExample</td>
 <td></td>
 <td>0</td>
-<td>example.PutExample@7d417077</td></tr>
+<td>example.PutExample@36be1318</td></tr>
 </table><p>
 </body>
 </html>

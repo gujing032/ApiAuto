@@ -1,7 +1,7 @@
 package tools.report;
 import org.testng.ITestResult;
 /**
- * Created by weye on 2017/5/1.
+ * Created by Chuckie on 2017/5/1.
  */
 public class TestResultSort implements Comparable<ITestResult> {
     private Long order;
